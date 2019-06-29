@@ -1,77 +1,109 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
-  <head>
-
-    <meta charset="UTF-8">
-    <title>Kip Bradley Smith</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!-- link html to Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
-
+<head>
+	<meta charset="UTF-8">
+	<title>About | Kip Smith</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">		
+</head>
+	
 <body>
 
-  <header id="masthead">
-      <!-- <nav> -->
-      <!-- <div class="btn-group btn-group-sm" role="group" aria-label="..." href="index.html">About</div> -->
-
-    <!-- <div class="container">
-      <a href="index.html" id="logo">Kip Bradley Smith</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div> -->
-    <!-- </nav> -->
-</header> 
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
-
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Kip Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="ramblekb@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="phone">Phone</label>
-            <input type="text" id="phone" name="phone" placeholder="423-667-3911" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-
-    </section>
-
-  </div>
-
-  <footer>
-      <div class="container">
-        <a href="index.html" id="logo">Kip Bradley Smith</a>
-        <nav>
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-    <div class="container">
-      Copyright KBS 2019 &copy; 
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" id ="logo-nl" href="index.html">Kip Smith</a>
+			</div>
+			
+			<ul class="nav navbar-nav navbar-right" id=nav>
+				<li><a href="index.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li class="active"><a href="contact.html">Contact</a></li>
+			</ul>
     </div>
-  </footer>
-</body>
+    <!-- /.container-fluid -->
+  </nav>
+  
 
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-1">
+			</div>
+
+			<div class="col-md-6">
+				<div class="panel panel-primary">
+					
+					<div class="panel-heading">
+						<h3 class="panel-title">Contact</h3>
+					</div>
+
+					<div class="panel-body">
+						<form>
+ 							<div class="form-group">
+    						<label for="name">Name</label>
+    						<input type="text" class="form-control" id="name" placeholder="John Smith" required="required">
+ 							</div>
+
+ 							<div class="form-group">
+   							<label for="email">Email</label>
+   							<input type="email" class="form-control" id="email" placeholder="example@gmail.com" required="required">
+  						</div>
+
+  						<div class="form-group">
+   							<label for="message">Message</label>
+   							<textarea class="form-control" rows="3" id="message" required="required"></textarea>
+  						</div>
+							
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					</div>	
+				</div>
+			</div>
+<!-- 			
+			<div class="col-md-1">
+			</div>
+			
+			<div class="col-md-3">
+				<div class="panel panel-primary" id="sidebar">
+							
+					<div class="panel-heading">
+						<h3 class="panel-title">Connect</h3>
+					</div>
+							
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-4">
+								<!-- <a href="https://github.com/ramblekb" target="_blank" class="thumbnail"> -->
+								<!-- <img src="assets/images/github-128.png" alt="GitHub" class="img-responsive social"></a> -->
+							</div>
+						
+							<div class="col-md-4">
+								<!-- <a href="https://www.linkedin.com/in/kip-smith-85178923/" target="_blank" class="thumbnail"><img src="assets/images/linkedin-128.png" alt="LinkedIn" class="img-responsive social"></a> -->
+							</div>
+						
+							<div class="col-md-4">
+								<!-- <a href="https://www.linkedin.com/in/kip-smith-85178923/" target="_blank" class="thumbnail"><img src="" alt="stackoverflow" class="img-responsive social"></a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+			<div class="col-md-1">
+			</div>
+
+		</div>
+	</div>
+			
+	<footer class="footer">
+		<div class="container" id="footer-text">
+			<p class="text-muted">KBS 2019</p>
+		</div>
+	</footer>
+
+</body>
 </html>

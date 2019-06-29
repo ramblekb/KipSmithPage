@@ -1,106 +1,96 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-
-  <meta charset="UTF-8">
-  <title>Kip Bradley Smith</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <!-- link html to Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta charset="UTF-8">
+	<title>About | Kip Smith</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">		
 </head>
+	
 <body>
 
-  <!-- Container Div -->
-  <div class="container">
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" id ="logo-nl" href="index.html">Kip Smith</a>
+			</div>
+			
+			<ul class="nav navbar-nav navbar-right" id=nav>
+				<li class="active"><a href="index.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
 
-    <!-- Section 1: Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container">
+		<div class="row">
 
-      <!-- Our brand / logo -->
-      <a class="navbar-brand" href="#">Kip Bradley Smith</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+			<div class="col-md-1">
+			</div>
 
-        <!-- Collapsible button -->
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-
-          <!-- The links of our navbar -->
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li> -->
-          <!-- a Dropdown menu -->
-          <li class="nav-item dropdown">
-
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="portfolio.html">About Me</a>
-              <a class="dropdown-item" href="#">Projects</a>
-              <a class="dropdown-item" href="contact.html">Contact</a>
+			<div class="col-md-6">
+				<div class="panel panel-primary">
+					
+					<div class="panel-heading">
+						<h3 class="panel-title">About Me</h3>
+					</div>
+					
+					<div class="panel-body">
+						<img id="bio-image" class="img-responsive pull-left" alt="Responsive image" src="assets/images/clipp4.001.jpg" alt="Kip Smith">
+								
+						<p>From Lookout Mountain, GA. Thirty three years old. Love to create. That's how I got into coding.</p>
+						
+						<p>No previous experience to Vandy's Bootcamp. I was an English major in Oxford, MS the home of Faulkner and that which followed. Extra time I worked with a local music producer who taught me editting which I love and drew me to seek out coding.</p>
+						
+						<p>As I’m learning and growing within the class I’m understanding different peoples goals and mind set. My goal is to find a balance of creation and tactic. I love leading small teams. </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-1">
+			</div>
+			
+			<div class="col-md-3">
+				<div class="panel panel-primary" id="sidebar">
+							
+					<div class="panel-heading">
+						<h3 class="panel-title">Connect</h3>
+					</div>
+							
+          <div class="panel-body">
+              <div class="row">
+              
+                <div class="col-md-4">
+                  <a href="https://www.linkedin.com/in/kip-smith-85178923/" target="_blank" class="thumbnail"><img src="assets/images/Port3.png" alt="LinkedIn" class="img-responsive social"></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.instagram.com/handlinesband/" target="_blank" class="thumbnail">
+                    <img src="assets/images/Crys 3.png" alt="Instagram" class="img-responsive social"></a>
+                  </div>
+              
+                <div class="col-md-4">
+              
+                </div>
+              </div>
             </div>
-
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Jumbotron element -->
-    <div class="jumbotron"
-    document.body.style.backgroundColor = #red
-        >
-
-      <!-- centered text -->
-      <h1 class="text-center"><strong>Awesome Header</strong></h1>
-      <h2 class="text-center">Smaller Awesome Header</h2>
-      <h3 class="text-center">Even Smaller Header</h3>
-
-      <!-- button with predefined style rules -->
-      <p class="text-center">
-        <a class="btn btn-primary btn-lg" href="#" role="button">
-          <span class="fa fa-envelope"></span> Learn more</a>
-      </p>
-    </div>
-
-    <!-- a Bootstrap row with columns -->
-    <div class="row">
-
-      <!-- At large+ screens takes up half width (6/12) -->
-      <div class="col-lg-6">
-
-        <!-- centered image with thumbnail rules -->
-        <img class="img thumbnail center-block" src="file:///Users/KipBradleySmith/Desktop/Screen%20Shot%202019-04-24%20at%2012.55.47%20AM.png" alt="Kell" width="50%">
-        <p>My name is Kip Smith i am intereseted in breaking code and catching my computer on fire. My mac's headphone jack attemping a loop with a modified mini-tape recorder. I am 33yrs. Reside in Nashville, Tennessee and hope to go far in the web field.</p>
-      </div>
-
-      <!-- At large+ screens takes up half width (6/12) -->
-      <!-- <div class="col-lg-6">
+          </div>
+        </div>
+  
+        <div class="col-md-1">
+        </div>
         
-        <img class="img thumbnail center-block" src=file:///Users/KipBradleySmith/Documents/IMG_1921.jpg alt="LittleCoder" width="50%">
-        <p> Here are some pieces i've made.</p>
-      </div> -->
+      </div>
     </div>
-  </div>
-
-  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <footer class="footer">
+      <div class="container" id="footer-text">
+        <p class="text-muted">KBS 2019</p>
+      </div>
+    </footer>
 
 </body>
-<footer>
-  <div class="container">
-    Copyright KBS 2019 &copy; 
-  </div>
-</footer>
 </html>
