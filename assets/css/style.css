@@ -28,6 +28,11 @@
 	padding-right: 10px;
 }
 
+#resume-image {
+	position: relative;
+	margin: 20px 0 25px;
+	width: 100%;
+}
 
 /*portfolio page*/
 .work {
