@@ -36,7 +36,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio BOCA Contact</title>
-    <link rel="stylesheet" href="email.css" media="all">
+    <link rel="stylesheet" href="/assets/css/email.css" media="all">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="email.js"></script>
 </head>
